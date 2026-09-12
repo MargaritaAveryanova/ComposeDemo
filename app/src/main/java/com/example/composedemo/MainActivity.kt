@@ -89,9 +89,7 @@ fun DemoScreen(modifier: Modifier = Modifier) {
 @Composable
 fun DemoTextPreview() {
     ComposeDemoTheme {
-        Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            DemoScreen(modifier = Modifier.padding(innerPadding))
-        }
+        DemoText(message = "Welcome to Android", fontSize = 12f)
     }
 }
 

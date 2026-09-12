@@ -85,7 +85,7 @@ fun DemoScreen(modifier: Modifier = Modifier) {
 }
 
 
-@Preview (showSystemUi = true)
+@Preview
 @Composable
 fun DemoTextPreview() {
     ComposeDemoTheme {
